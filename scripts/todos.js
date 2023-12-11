@@ -1,5 +1,4 @@
 
-
 fetch("http://localhost:8083/api/todos")
   .then((response) => response.json())
   .then((data) => {
