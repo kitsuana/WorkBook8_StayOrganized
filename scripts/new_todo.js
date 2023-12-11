@@ -30,9 +30,9 @@ window.onload = () => {
             },
             body: JSON.stringify(todoFormData),
         }).then((res)=>res.json())
-        .then((todo)=>{
+        .then(()=>{
             console.log("To do created succesfully");
-            location.href = `./todos.html`;
+            location.href = "./todos.html";
 
         }).catch((err)=>{
             console.error(err);
@@ -41,7 +41,7 @@ window.onload = () => {
 
 }
 
-//  helper functions
+//  Helper functions to populate dropdowns
 
 let getUsers = () => {
     fetch("http://localhost:8083/api/users")

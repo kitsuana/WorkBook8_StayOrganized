@@ -1,0 +1,30 @@
+body {
+    background-color: #F4FAFF;
+}
+
+.btn-primary {
+    background-color: #B7ADCF;
+    border-color: #B7ADCF;
+}
+
+.btn-primary:focus:active, .btn-primary:hover {
+    background-color: #ae99e0 !important; 
+    border-color: #B7ADCF !important;
+}
+
+li:hover {
+    background-color: #DEE7E7;
+}
+
+img {
+    width: 45%;
+}
+
+.nav-underline > .active{
+    border-color: #ae99e0 !important;
+    color:#3d3253 !important;
+}
+
+.nav-underline > *:hover{
+    border-color: #ae99e0 !important;
+}
